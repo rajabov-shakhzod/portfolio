@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Portfolio Wesite Design</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="./images/logo1.jpg"
 
     <!-- swiper css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -21,22 +22,24 @@
 
         <nav class="navbar">
             <a href="#Home" class="active">Home</a>
-            <a href="#About">About</a>
-            <a href="#Service">Service</a>
-            <a href="#Portfolio">Portfolio</a>
-            <a href="#Contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
 
         <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
     </header>
     <!-- header design end -->
 
     <!-- home section design start -->
-    <section class="home" id="home">
+    <section class="home" id="Home">
         <div class="home-content">
             <h3>Hello I am</h3>
-            <h1>Rajbaov Shahzod</h1>
-            <p>ayni paytda web dasturlash sohasini o'rganyapman. Html5 va css ni o'zlashtirganman.</p>
+            <h1>Rajabov Shahzod</h1>
+            <p>Ayni paytda web dasturlash sohasini o'rganyapman. Html5 va css ni o'zlashtirganman.</p>
 
             <div class="social-media">
                 <a href="#"><i class='bx bxl-facebook' ></i></a>
@@ -67,10 +70,9 @@
                     <h3>Videographer</h3>
                 </div>
                 
-                <div class="circle">
-                </div>
-                <div class="overlay"></div>
+                <div class="circle"></div>    
             </div>
+            <div class="overlay"></div>
         </div>
 
         <div class="home-img">
@@ -82,11 +84,11 @@
     <!-- about section design start -->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="" alt="">
+            <img src="./images/rasm2.jpg" alt="">
         </div>
 
-        <div class="about-coontent">
-            <h2 class="heading">About<span>Me</span></h2>
+        <div class="about-content">
+            <h2 class="heading" id="msg">About <span>Me</span></h2>
             <h3>Hi, I'm Here To Help Your Next Project!</h3>
             <p>hhhutrhz urhthah h4uiuiaserkjhjhfgbj huhhrmbxjxyhr shueyusehjhcbhugzghj 
                 sgeguecbjyg ueg yczhhhygeccvah uiiawiuiwiu v jhakIIHnbmjFKUge u hiusfjb iu
@@ -241,8 +243,38 @@
     <!-- testimonial design end -->
 
     <!-- contact section start -->
-    
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+     </section>
     <!-- contact section end -->
+
+    <!-- footer section start -->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Rajabov | All Rigths Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#Home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+     </footer>
+    <!-- footer section end -->
+
+     <!-- scroll reveal -->
+     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
