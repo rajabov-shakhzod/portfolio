@@ -6,7 +6,7 @@ let navbar = document.querySelector('.navbar');
 menuIcon.onclick = () => {
   menuIcon.classList.toggle('bx-x');
   navbar.classList.toggle('active');
-}
+};
 
 // scroll sections active link 
 let sections = document.querySelectorAll('section');
@@ -24,9 +24,9 @@ window.onscroll = () => {
       navLinks.forEach(links => {
         links.classList.remove('active');
         document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
-      })
-    }
-  })
+      });
+    };
+  });
 
 
 // sticky navbar 
@@ -67,7 +67,7 @@ var swiper = new Swiper(".mySwiper", {
   darkModeIcon.onclick = () => {
     darkModeIcon.classList.toggle('bx-sun');
     document.body.classList.toggle('dark-mode');
-  }
+  };
 
 
   // scroll reveal
@@ -78,7 +78,7 @@ var swiper = new Swiper(".mySwiper", {
     delay: 200
   });
 
-  ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-  ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .testimonial-wrapper, .contact form', { origin: 'bottom' });
-  ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
-  ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { origin: 'right' });
+  // ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+  // ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .testimonial-wrapper, .contact form', { origin: 'bottom' });
+  // ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
+  // ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { origin: 'right' });
