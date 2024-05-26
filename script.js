@@ -6,7 +6,7 @@ let navbar = document.querySelector('.navbar');
 menuIcon.onclick = () => {
   menuIcon.classList.toggle('bx-x');
   navbar.classList.toggle('active');
-};
+}; 
 
 // scroll sections active link 
 let sections = document.querySelectorAll('section');
